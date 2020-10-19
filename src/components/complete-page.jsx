@@ -15,12 +15,16 @@ function Complete() {
       </div>
     <div >
        <Navbar className='nav' />
-       <Search className='classes' />
+       <Search  />
+       <div className='associate'>
+      <div >
       <div  className='menu'>
        <MenuItem />
        <Items />
-       <div className='lines'></div>
       </div>
+      </div>
+      <div className='lines'></div>
+       </div>
     </div>
     </div>
   )
