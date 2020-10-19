@@ -1,0 +1,11 @@
+.items {
+    margin-left: 20px;
+    margin-top: 40px;
+    display: flex;  
+    justify-content: space-around;
+}
+
+.edit {
+    margin-bottom: 10px;
+    justify-content: space-around;
+}

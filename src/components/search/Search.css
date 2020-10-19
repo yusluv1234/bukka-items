@@ -1,0 +1,17 @@
+.food-item {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 45px;
+    color: black;
+}
+
+.input {
+    height: 35px;
+}
+
+.great {
+    background: #9D1621;
+    display: grid;
+    place-items: center;
+    width: 30px;
+}

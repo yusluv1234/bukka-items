@@ -1,0 +1,8 @@
+.menu-item {
+    margin-top: 40px;
+    /* display: grid; */
+    columns: 1;
+    grid-row: 7;
+    /* grid-row-gap: 0px; */
+    cursor: pointer;
+}

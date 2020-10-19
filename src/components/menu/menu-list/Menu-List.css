@@ -1,0 +1,16 @@
+.menu-list {  
+    margin-left: 40px;
+    width: 95px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 55px;
+    border: 1px solid #F2F2F2;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 9px;
+}
+.value {
+    font-size: 10px;
+}

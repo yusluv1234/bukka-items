@@ -1,0 +1,13 @@
+.side-bar {
+    background-color: #4E0E13;
+    height: 100vh;
+    width: 15vw;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.sidebar-button {
+    padding-top: 32px;
+    padding-bottom: 30px;
+
+}

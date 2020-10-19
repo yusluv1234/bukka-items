@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 13px;
+
+}
+
+.title {
+    font-size: 10px;
+    color: white;
+}
+
+.svg {
+padding-right: 10px;
+}

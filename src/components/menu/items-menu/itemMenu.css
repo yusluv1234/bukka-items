@@ -1,0 +1,15 @@
+.itemMenu {  
+    margin-left: 40px;
+    width: 150px;
+    text-align: center;
+    height: 100px;
+    border: 1px solid #F2F2F2;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 9px;
+}
+.item {
+    font-size: 10px;
+}
