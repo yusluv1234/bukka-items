@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuList from '../menu-list/Menu-List';
+import ItemMenu from '../items-menu/itemMenu';
 
 import './items.css';
 
@@ -7,22 +7,24 @@ function Items() {
     return (
         <div className='items'>
            <div>
-           <MenuList />
-            <MenuList />
-            <MenuList />
-            <MenuList />
+           <ItemMenu title='Chichen Fries' item='32 ITEMS' />
+           <ItemMenu title='Chichen Fries' item='32 ITEMS' />
+           <ItemMenu title='Chichen Fries' item='32 ITEMS' />
            </div>
            <div>
-           <MenuList />
-            <MenuList />
-            <MenuList />
-            <MenuList />
+           <ItemMenu title='Potato Chips' item='32 ITEMS' />
+           <ItemMenu title='Potato Chips' item='32 ITEMS' />
+           <ItemMenu title='Potato Chips' item='32 ITEMS' />
            </div>
            <div>
-           <MenuList />
-            <MenuList />
-            <MenuList />
-            <MenuList />
+           <ItemMenu title='Amala' item='32 ITEMS' />
+           <ItemMenu title='Amala' item='32 ITEMS' />
+           <ItemMenu title='Amala' item='32 ITEMS' />
+           </div>
+           <div>
+           <ItemMenu title='Amala' item='32 ITEMS' />
+           <ItemMenu title='Amala' item='32 ITEMS' />
+           <ItemMenu title='Amala' item='32 ITEMS' />
            </div>
         </div>
     )

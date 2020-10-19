@@ -1,15 +1,18 @@
 .itemMenu {  
     margin-left: 40px;
-    width: 150px;
-    text-align: center;
-    height: 100px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 70px;
     border: 1px solid #F2F2F2;
 }
 
 .title {
+    margin-top: 15px;
+    margin-left: 10px;
     font-weight: bold;
-    margin-top: 9px;
+    color: black;
 }
 .item {
     font-size: 10px;
+    margin-left: 10px;
 }
