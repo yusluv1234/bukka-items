@@ -6,11 +6,12 @@
     border: 1px solid #F2F2F2;
 }
 
-.title {
+.titles {
     margin-top: 15px;
     margin-left: 10px;
     font-weight: bold;
     color: black;
+    font-size: 10px;
 }
 .item {
     font-size: 10px;

@@ -5,7 +5,7 @@ import './itemMenu.css';
 const ItemMenu = props  => {
     return (
         <div className='itemMenu'>
-            <div className='title'>{props.title}</div>
+            <div className='titles'>{props.titles}</div>
             <div className='item'>{props.item}</div>
         </div>
     )

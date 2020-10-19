@@ -7,24 +7,24 @@ function Items() {
     return (
         <div className='items'>
            <div>
-           <ItemMenu title='Chichen Fries' item='32 ITEMS' />
-           <ItemMenu title='Chichen Fries' item='32 ITEMS' />
-           <ItemMenu title='Chichen Fries' item='32 ITEMS' />
+           <ItemMenu titles='Chichen Fries' item='32 ITEMS' />
+           <ItemMenu titles='Chichen Fries' item='32 ITEMS' />
+           <ItemMenu titles='Chichen Fries' item='32 ITEMS' />
            </div>
            <div>
-           <ItemMenu title='Potato Chips' item='32 ITEMS' />
-           <ItemMenu title='Potato Chips' item='32 ITEMS' />
-           <ItemMenu title='Potato Chips' item='32 ITEMS' />
+           <ItemMenu titles='Potato Chips' item='32 ITEMS' />
+           <ItemMenu titles='Potato Chips' item='32 ITEMS' />
+           <ItemMenu titles='Potato Chips' item='32 ITEMS' />
            </div>
            <div>
-           <ItemMenu title='Amala' item='32 ITEMS' />
-           <ItemMenu title='Amala' item='32 ITEMS' />
-           <ItemMenu title='Amala' item='32 ITEMS' />
+           <ItemMenu titles='Amala' item='32 ITEMS' />
+           <ItemMenu titles='Amala' item='32 ITEMS' />
+           <ItemMenu titles='Amala' item='32 ITEMS' />
            </div>
            <div>
-           <ItemMenu title='Amala' item='32 ITEMS' />
-           <ItemMenu title='Amala' item='32 ITEMS' />
-           <ItemMenu title='Amala' item='32 ITEMS' />
+           <ItemMenu titles='Amala' item='32 ITEMS' />
+           <ItemMenu titles='Amala' item='32 ITEMS' />
+           <ItemMenu titles='Amala' item='32 ITEMS' />
            </div>
         </div>
     )

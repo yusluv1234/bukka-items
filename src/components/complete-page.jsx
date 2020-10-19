@@ -19,6 +19,7 @@ function Complete() {
       <div  className='menu'>
        <MenuItem />
        <Items />
+       <div className='lines'></div>
       </div>
     </div>
     </div>
