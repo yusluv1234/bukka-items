@@ -14,7 +14,7 @@ function Complete() {
       <Sidebar />
       </div>
     <div >
-       <Navbar className='nav' />
+       <Navbar />
        <Search  />
        <div className='associate'>
       <div >

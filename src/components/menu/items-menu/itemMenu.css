@@ -3,7 +3,12 @@
     margin-bottom: 20px;
     width: 100px;
     height: 70px;
-    border: 1px solid #F2F2F2;
+    border: 2px solid #E7E8EB;
+    cursor: pointer;
+}
+
+.itemMenu:hover {
+    border: 2px solid steelblue;
 }
 
 .titles {
