@@ -4,9 +4,14 @@
     background-color: #FFFFFF;
     cursor: pointer;
     height: 35px;
-    width: 180vh;
+    width: 120%;
     border: 2px solid #E7E8EB;
 
+}
+
+button {
+    border-style: none;
+    background-color: none;
 }
 
 .navbar {

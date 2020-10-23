@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sidebar from '../components/sidebar';
 import Navbar from '../components/Navbar' ;
 import MenuItem from './menu/menu-item/Menu-Item';
@@ -7,14 +7,16 @@ import Items from './menu/items/Items';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './complete-page.css';
 
-function Complete() {
+function Complete(props) {
+  const [sidebar, setSidebar] = useState(false);
+
   return (
     <div className='refill'>
-    <div >
-      <Sidebar />
+    <div>
+      <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
       </div>
     <div >
-       <Navbar />
+       <Navbar setSidebar={setSidebar} sidebar={sidebar} />
        <Search  />
        <div className='associate'>
       <div >
