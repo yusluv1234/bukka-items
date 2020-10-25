@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SidebarData from './SidebarData';
+import sidebarMin from './sidebarMin';
 
 import './sidebar.css';
 
@@ -8,7 +9,7 @@ import Button from '../buttons/Button';
 
 
     const Sidebar = props => {
-        return (
+        let sidebarComp = (
             <div className="side-bar" setSidebar={props.setSidebar} sidebar={props.sidebar}>
                 <img src={Bukkalogo} alt="Bukka" />       
                     <div className='sidebar-button'>
@@ -19,6 +20,11 @@ import Button from '../buttons/Button';
                 </div>
             </div>
         )
+
+        if (props.sidebar) {
+            sidebarComp = <div>  { <sidebarMin /> } </div>
+        }   
+        return  sidebarComp
     }
 
 export default Sidebar;

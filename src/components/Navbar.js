@@ -1,16 +1,13 @@
-import React, { useState, } from 'react';
+import React from 'react';
 import Bars from './images/bars.svg';
-import bukkaLogo from './images/bukka-logo.svg';
 import sideImage from './images/sideImage.svg';
-import SidebarData from './SidebarData';
 import Arrow from './images/arrow.svg';
-import Sidebar from './sidebar';
 // import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar(props) {
 
-        const [sidebar, setSidebar] = useState(false);
+        // const [sidebar, setSidebar] = useState(false);
         // const showSidebar = setSidebar(!sidebar)
 
 

@@ -1,14 +1,13 @@
 import React from 'react';
 import Complete from './components/complete-page';
-// import MenuItem from '../src/components/menu/menu-item/Menu-Item';
-
+import sidebarMin from './components/sidebarMin';
 import './App.css';
 
 function App() {
   return (
     <div className='champion'>
-      <Complete />
-      {/* <MenuItem /> */}
+      {/* <Complete /> */}
+      <sidebarMin />
     </div>
   )
 }
