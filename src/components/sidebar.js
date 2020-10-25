@@ -8,10 +8,6 @@ import Button from '../buttons/Button';
 
 
     const Sidebar = props => {
-        
-        const [sidebar, setSidebar] = useState(false);
-
-
         return (
             <div className="side-bar" setSidebar={props.setSidebar} sidebar={props.sidebar}>
                 <img src={Bukkalogo} alt="Bukka" />       
