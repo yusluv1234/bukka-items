@@ -22,10 +22,10 @@ import Button from '../buttons/Button';
         )
 
         if (props.sidebar) {
-            sidebarComp = <div className="side-bar" setSidebar={props.setSidebar} sidebar={props.sidebar}>
+            sidebarComp = <div className="sidebar-dat" setSidebar={props.setSidebar} sidebar={props.sidebar}>
                 
-                <div className='sidebarlist'>
-                <SidebarData />
+                <div className='sidebar-comp'>
+                <SidebarMin />
                 </div>
             </div>
         }   

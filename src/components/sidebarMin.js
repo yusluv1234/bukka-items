@@ -10,17 +10,24 @@ import contactSupport from './images/contact.svg'
 import './sidebarMin.css';
 
 const SidebarMin = () => {
+
+    const icona = <img src={Instore} alt='instore' />;
+    const iconb = <img src={Online} alt='instore' />;
+    const iconc = <img src={History} alt='instore' />;
+    const icond = <img src={Menu} alt='instore' />;
+    const icone = <img src={savedCart} alt='instore' />;
+    const icong = <img src={Settings} alt='instore' />;
+    const iconh = <img src={contactSupport} alt='instore' />;
+
     return (
         <div className='sidebar-min'>
-            <div className='first'>
-            <img src={Instore} alt='instore' />;
-            <img src={Online} alt='instore' />;
-            <img src={History} alt='instore' />;
-            <img src={Menu} alt='instore' />;
-            <img src={savedCart} alt='instore' />;
-            <img src={Settings} alt='instore' />;
-            <img src={contactSupport} alt='instore' />;
-            </div>
+                <p>{icona}</p>
+                <p>{iconb}</p>
+                <p>{iconc}</p>
+                <p>{icond}</p>
+                <p>{icone}</p>
+                <p>{icong}</p>
+                <p>{iconh}</p>
         </div>
     )
 }
