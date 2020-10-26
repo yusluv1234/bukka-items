@@ -15,9 +15,9 @@
 .sidebar-dat {
     background-color: #4E0E13;
     height: 100vh;
-    width: 4vw;
-    padding-top: 16px;
-    text-align: start;
+    width: 3vw;
+    /* padding-top: 16px; */
+    text-align: center;
 }
 
 .sidebar-comp {

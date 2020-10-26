@@ -21,12 +21,12 @@ const SidebarMin = () => {
 
     return (
         <div className='sidebar-min'>
-                <p>{icona}</p>
-                <p>{iconb}</p>
-                <p>{iconc}</p>
-                <p>{icond}</p>
-                <p>{icone}</p>
-                <p>{icong}</p>
+                <p>{icona}</p><br />
+                <p>{iconb}</p><br />
+                <p>{iconc}</p><br />
+                <p>{icond}</p><br />
+                <p>{icone}</p><br />
+                <p>{icong}</p><br />
                 <p>{iconh}</p>
         </div>
     )
