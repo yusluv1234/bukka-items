@@ -1,6 +1,6 @@
 import React from 'react';
 import SidebarData from './SidebarData';
-import sidebarMin from './sidebarMin';
+import SidebarMin from './sidebarMin';
 
 import './sidebar.css';
 
@@ -22,7 +22,12 @@ import Button from '../buttons/Button';
         )
 
         if (props.sidebar) {
-            sidebarComp = <div>  { <sidebarMin /> } </div>
+            sidebarComp = <div className="side-bar" setSidebar={props.setSidebar} sidebar={props.sidebar}>
+                
+                <div className='sidebarlist'>
+                <SidebarData />
+                </div>
+            </div>
         }   
         return  sidebarComp
     }
