@@ -2,15 +2,9 @@ import React from 'react';
 import Bars from './images/bars.svg';
 import sideImage from './images/sideImage.svg';
 import Arrow from './images/arrow.svg';
-// import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar(props) {
-
-        // const [sidebar, setSidebar] = useState(false);
-        // const showSidebar = setSidebar(!sidebar)
-
-
     return (
         <div className='bars'>
         <div className="navbar">
